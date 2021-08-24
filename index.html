@@ -9,36 +9,54 @@
 </head>
 <body>
     <header class="header">
-        <h1 class="header__title">Heading</h1>
+        
+        <nav class="header__nav">
+            <a href="#episode" class="header__link">Episodes</a>
+            <a href="#resources" class="header__link">Resources</a>
+        </nav>
     </header>
 
     <main>
+        <section class="hero">
+            <h1 class="hero__title">Welcome to Kate's podcast.</h1>
+            <h2 class="hero__subtitle">Airing the facts about corporate social responsibility and the modern enlightenment</h2>
+            <a href="#episode" class="button">Listen to podcast</a>
+        </section>
+
         <section class="podcast">
-            <video controls class="podcast__video" poster="https://via.placeholder.com/600x300">
-                <!-- insert video source here when ready -->
-            </video>
-            <h2 class="podcast__episode-title">Episode name</h2>
-            <p class="podcast__description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean sed adipiscing diam donec adipiscing tristique. Volutpat sed cras ornare arcu. Lacus vestibulum sed arcu non odio. Id eu nisl nunc mi ipsum faucibus. Porttitor lacus luctus accumsan tortor posuere ac ut consequat semper. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum. Vestibulum lectus mauris ultrices eros in cursus. Posuere ac ut consequat semper viverra nam libero. 
-            </p>
+            <h2 id="episode" class="podcast__latest-episodes">latest episodes</h2>
+            <div class="podcast__video-container">
+                <video controls class="podcast__video" poster="https://via.placeholder.com/600x300">
+                    <!-- insert video source here when ready -->
+                </video>
+            </div>
+            <div class="podcast__details-container">
+                <h3 class="podcast__episode-title">Episode name</h2>
+                <p class="podcast__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean sed adipiscing diam donec adipiscing tristique. Volutpat sed cras ornare arcu. Lacus vestibulum sed arcu non odio. Id eu nisl nunc mi ipsum faucibus. Porttitor lacus luctus accumsan tortor posuere ac ut consequat semper. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum. Vestibulum lectus mauris ultrices eros in cursus. Posuere ac ut consequat semper viverra nam libero. 
+                </p>
+            </div>
         </section>
 
         <section class="resources">
-            <h2 class="resources__title">Resources</h2>
-            <ul class="resources__list">
-                <li class="resources__item">
-                    <a href="" class="resources__link">Link 1</a>
-                </li>
-                <li class="resources__item">
-                    <a href="" class="resources__link">Link 2</a>
-                </li>
-                <li class="resources__item">
-                    <a href="" class="resources__link">Link 3</a>
-                </li>
-                <li class="resources__item">
-                    <a href="" class="resources__link">Link 4</a>
-                </li>
-            </ul>
+            <h2 id="resources" class="resources__title">resources</h2>
+            <div class="resources__resource-container">
+                <h3 class="resources__subtitle">Here's some resources to help</h3>
+                <ul class="resources__list">
+                    <li class="resources__item">
+                        <a href="" class="resources__link">Link 1</a>
+                    </li>
+                    <li class="resources__item">
+                        <a href="" class="resources__link">Link 2</a>
+                    </li>
+                    <li class="resources__item">
+                        <a href="" class="resources__link">Link 3</a>
+                    </li>
+                    <li class="resources__item">
+                        <a href="" class="resources__link">Link 4</a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
 

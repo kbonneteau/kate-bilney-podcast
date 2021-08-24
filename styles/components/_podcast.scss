@@ -1,0 +1,37 @@
+@use '../partials/variables' as *;
+@use '../partials/mixins' as *;
+
+.podcast {
+    // width: 90vw;
+    margin: 0 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    &__latest-episodes {
+        flex-basis: 100%;
+        padding: .5rem 1rem;
+        border-left: 2px solid grey;
+    }
+
+    &__video-container {
+        flex-basis: calc(20vw - 6rem);
+    }
+    
+    &__video {
+        
+    }
+    
+    &__details-container {
+        flex-basis: calc(50vw - 6rem);
+
+    }
+
+    &__episode-title {
+
+    }
+
+    &__description {
+
+    }
+}

@@ -16,6 +16,21 @@
   font-weight: 700;
   font-style: normal;
 }
+.button {
+  display: block;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: #323232;
+  border: 2px solid #323232;
+  text-transform: uppercase;
+}
+.button:hover {
+  color: #D22D2D;
+  border: 2px solid #D22D2D;
+  transition: all 0.3s ease;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -28,11 +43,94 @@ body {
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
-.header__title {
+.header__nav {
+  margin: 3rem;
+}
+.header__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1rem;
+  color: #323232;
+}
+.header__link:hover {
+  color: #D22D2D;
+  border-bottom: 1px solid #D22D2D;
+  transition: all 0.3s ease;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.hero__title {
   font-family: "Avenir Next LT Pro - Demi";
   font-size: 3rem;
   letter-spacing: 5px;
+  margin: 0;
+}
+.hero__subtitle {
+  font-size: 1.125rem;
+}
+
+.podcast {
+  margin: 0 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.podcast__latest-episodes {
+  flex-basis: 100%;
+  padding: 0.5rem 1rem;
+  border-left: 2px solid grey;
+}
+.podcast__video-container {
+  flex-basis: calc(20vw - 6rem);
+}
+.podcast__details-container {
+  flex-basis: calc(50vw - 6rem);
+}
+.resources {
+  margin: 3rem;
+}
+.resources__title {
+  padding: 0.5rem 1rem;
+  border-left: 2px solid grey;
+}
+.resources__resource-container {
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  width: 60%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.resources__subtitle {
+  font-size: 1.125rem;
+}
+.resources__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.resources__item {
+  padding: 1.5rem 0;
+  border-top: 1px solid #E1E1E1;
+}
+.resources__item:last-of-type {
+  border-bottom: 1px solid #E1E1E1;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #323232;
+  color: #fff;
+  height: 6rem;
 }/*# sourceMappingURL=main.css.map */

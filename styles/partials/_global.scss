@@ -1,4 +1,5 @@
 @use './variables' as *;
+@use '../components/button';
 
 *, *::before, *::after {
     box-sizing: border-box;

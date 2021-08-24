@@ -1,0 +1,45 @@
+@use '../partials/variables' as *;
+@use '../partials/mixins' as *;
+
+.resources {
+    margin: 3rem;
+
+    &__title {
+        padding: .5rem 1rem;
+        border-left: 2px solid grey;
+    }
+
+    &__resource-container {
+        margin: 0 auto;
+        padding: 2rem 1rem;
+        width: 60%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    &__subtitle {
+        font-size: 1.125rem;
+    }
+
+    &__list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__item {
+        padding: 1.5rem 0;
+        border-top: 1px solid #E1E1E1;
+        
+        &:last-of-type {
+            border-bottom: 1px solid #E1E1E1;
+        }
+    }
+
+    &__link {
+
+    }
+}

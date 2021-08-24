@@ -3,12 +3,25 @@
 
 .header {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 
-    &__title {
-        font-family: $site-font-demi;
-        font-size: 3rem;
-        letter-spacing: 5px;
+    &__nav {
+        // height: 2rem;
+        margin: 3rem;
+    }
+
+    &__link {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1rem;
+        color: #323232;
+
+        &:hover {
+            color: #D22D2D;
+            border-bottom: 1px solid #D22D2D;
+            transition: all .3s ease;
+        }
     }
 }
