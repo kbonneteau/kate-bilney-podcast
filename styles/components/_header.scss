@@ -1,0 +1,14 @@
+@use '../partials/variables' as *;
+@use '../partials/mixins' as *;
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        font-family: $site-font-demi;
+        font-size: 3rem;
+        letter-spacing: 5px;
+    }
+}

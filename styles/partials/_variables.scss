@@ -1,0 +1,12 @@
+@use './typography';
+
+// Media query breakpoint definitions
+$desktop-breakpoint: 1280px;
+$tablet-breakpoint:  768px;
+$mobile-breakpoint:  767px;
+$max-content-width:  63.75rem;
+
+// Site fonts
+$site-font-normal: 'Avenir Next LT Pro';
+$site-font-demi:   'Avenir Next LT Pro - Demi';
+$site-font-bold:   'Avenir Next LT Pro - Bold';
