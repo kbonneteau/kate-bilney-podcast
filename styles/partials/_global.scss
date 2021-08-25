@@ -9,5 +9,9 @@ body {
     margin: 0;
     font-family: $site-font-normal;
     // height: 100vh;
-    background-color: papayawhip;
+    // background-color: papayawhip;
+    color: white;
+    background-image: url('../assets/images/website-background.jpg');
+    background-size:contain;
+    background-position: center;
 }

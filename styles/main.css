@@ -27,7 +27,9 @@
 }
 .button:hover {
   color: #D22D2D;
+  font-family: "Avenir Next LT Pro - Demi";
   border: 2px solid #D22D2D;
+  background-color: rgba(255, 255, 255, 0.7);
   transition: all 0.3s ease;
 }
 
@@ -38,7 +40,10 @@
 body {
   margin: 0;
   font-family: "Avenir Next LT Pro";
-  background-color: papayawhip;
+  color: white;
+  background-image: url("../assets/images/website-background.jpg");
+  background-size: contain;
+  background-position: center;
 }
 
 .header {
@@ -53,11 +58,14 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.45);
   color: #323232;
 }
 .header__link:hover {
-  color: #D22D2D;
-  border-bottom: 1px solid #D22D2D;
+  color: #f74747;
+  border-bottom: 2px solid #D22D2D;
+  font-family: "Avenir Next LT Pro - Demi";
+  background-color: rgba(255, 255, 255, 0.7);
   transition: all 0.3s ease;
 }
 
@@ -67,6 +75,9 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.65);
+  color: #323232;
+  padding: 1rem;
 }
 .hero__title {
   font-family: "Avenir Next LT Pro - Demi";
@@ -87,26 +98,34 @@ body {
 .podcast__latest-episodes {
   flex-basis: 100%;
   padding: 0.5rem 1rem;
-  border-left: 2px solid grey;
+  border-left: 2px solid #D22D2D;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #323232;
 }
 .podcast__video-container {
   flex-basis: calc(20vw - 6rem);
 }
 .podcast__details-container {
   flex-basis: calc(50vw - 6rem);
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #323232;
 }
 .resources {
   margin: 3rem;
 }
 .resources__title {
   padding: 0.5rem 1rem;
-  border-left: 2px solid grey;
+  border-left: 2px solid #D22D2D;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #323232;
 }
 .resources__resource-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #323232;
   margin: 0 auto;
   padding: 2rem 1rem;
   width: 60%;
-  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;

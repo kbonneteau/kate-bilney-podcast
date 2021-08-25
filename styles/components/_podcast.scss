@@ -11,7 +11,9 @@
     &__latest-episodes {
         flex-basis: 100%;
         padding: .5rem 1rem;
-        border-left: 2px solid grey;
+        border-left: 2px solid #D22D2D;
+        background-color: rgba(255, 255, 255, 0.500);
+        color: #323232;
     }
 
     &__video-container {
@@ -24,6 +26,9 @@
     
     &__details-container {
         flex-basis: calc(50vw - 6rem);
+        padding: 1rem;
+        background-color: rgba(255, 255, 255, 0.800);
+        color: #323232;
 
     }
 
