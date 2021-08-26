@@ -84,6 +84,7 @@ body {
   background-color: rgba(255, 255, 255, 0.65);
   color: #323232;
   padding: 1rem;
+  padding: 4rem 0;
 }
 .hero__title {
   font-family: "Avenir Next LT Pro - Demi";
@@ -119,6 +120,9 @@ body {
 }
 .podcast__episode-title {
   font-family: "Avenir Next LT Pro - Demi";
+}
+.podcast__description {
+  line-height: 1.4;
 }
 .podcast:last-of-type {
   margin-top: 3rem;
