@@ -33,10 +33,14 @@
     }
 
     &__episode-title {
-
+        font-family: $site-font-demi;
     }
 
     &__description {
 
+    }
+
+    &:last-of-type {
+        margin-top: 3rem;
     }
 }

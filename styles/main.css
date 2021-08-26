@@ -46,6 +46,12 @@ body {
   background-position: center;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 6rem);
+}
+
 .header {
   display: flex;
   justify-content: flex-end;
@@ -111,6 +117,13 @@ body {
   background-color: rgba(255, 255, 255, 0.8);
   color: #323232;
 }
+.podcast__episode-title {
+  font-family: "Avenir Next LT Pro - Demi";
+}
+.podcast:last-of-type {
+  margin-top: 3rem;
+}
+
 .resources {
   margin: 3rem;
 }
